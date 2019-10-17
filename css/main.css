@@ -20,8 +20,12 @@ div {
   background-color: #000;
 }
 
-.btn-subtle:hover,
+.btn-subtle:hover {
+  background-color: #666;
+}
+
 .btn-ghost:hover {
+  color: #fff;
   background-color: #666;
 }
 
@@ -37,7 +41,7 @@ div {
   display: inline-block;
   margin: .25em;
   text-decoration: none;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 8px;
   max-width: 250px;
 }
@@ -58,6 +62,7 @@ div {
 
 .btn-small {
   font-size: .875rem;
+  font-weight: lighter;
 }
 
 .btn-big {
