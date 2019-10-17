@@ -12,17 +12,9 @@ body {
 }
 div {
   text-align: center;
-  display: inline-block;
-  margin: .5em;
-  width: 75%;
+  padding: .25em;
 }
 
-a {
-  text-decoration: none;
-    border-radius: 8px;
-    display: block;
-    max-width: 250px;
-}
 
 .btn:hover {
   background-color: #000;
@@ -42,7 +34,13 @@ a {
   color: #fff;
   font-size: 1.5rem;
   padding: .4em .75em .3em;
-  margin: 0;
+  display: inline-block;
+  margin: .5em;
+  width: 75%;
+  text-decoration: none;
+  border-radius: 8px;
+  display: block;
+  max-width: 250px;
 }
 
 .btn-subtle {
