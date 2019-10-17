@@ -13,7 +13,7 @@ body {
 
 div {
   text-align: center;
-  padding: .25em;
+  padding: .3em;
 }
 
 .btn:hover {
@@ -32,12 +32,12 @@ div {
 .btn {
   background-color: #333;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   padding: .4em .75em .3em;
   display: inline-block;
   margin: .25em;
-  width: 75%;
   text-decoration: none;
+  border: 1px solid transparent;
   border-radius: 8px;
   max-width: 250px;
 }
@@ -48,7 +48,7 @@ div {
 
 .btn-ghost {
   color: #000;
-  background-color: #fff;
+  background-color: transparent;
   border: 3px solid #000;
 }
 
